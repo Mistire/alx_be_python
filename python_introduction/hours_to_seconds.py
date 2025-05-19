@@ -1,5 +1,4 @@
 hours = 2
-hour_to_minutes = hours * 60
-hour_to_seconds = hour_to_minutes * 60
+seconds = hours * 3600
 
-print(f"{hours} hour(s) is {hour_to_seconds} seconds.")
+print(f"{hours} hour(s) is {seconds} seconds.")
