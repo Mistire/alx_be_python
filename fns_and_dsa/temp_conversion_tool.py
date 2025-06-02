@@ -14,5 +14,7 @@ if choice == "f":
   print(f"{temperature}°F is {convert_to_celsius(temperature):.1f}°C")
 elif choice == "c":
   print(f"{temperature}°C is {convert_to_fahrenheit(temperature):.1f}°F")
+else:
+  print("Invalid temperature. Please enter a numeric value.")
 
 
